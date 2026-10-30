@@ -70,7 +70,7 @@ IF(
 - 🔍 **Multi-Criteria Filtering:** Checks job title, country, schedule type, and excludes blank salaries.
 - 📊 **Array Formula:** Utilizes `MEDIAN()` function with nested `IF()` statement to analyze an array.
 - 🎯 **Tailored Insights:** Provides specific salary information for job titles, regions, and schedule types.
-- **🔢 Formula Purpose:** This formula populates the table below, returning the median salary based on job title, country, and type specified.
+- **🔢 Formula Purpose:** This formula populates the table in the dashboard, returning the median salary based on job title, country, and type specified.
 
 <!--
 🍽️ Background Table
@@ -89,7 +89,7 @@ IF(
 ```
 
 - 🔍 **Unique List Generation:** This Excel formula below employs the `FILTER()` function to exclude entries containing "and" or commas, and omit zero values.
-- **🔢 Formula Purpose:** This formula populates the table below, which gives us a list of unique job schedule types.
+- **🔢 Formula Purpose:** This formula populates the table in the dashboard, which gives us a list of unique job schedule types.
 
 <!--
 🍽️ Background Table
@@ -114,4 +114,4 @@ IF(
 
 ## Conclusion
 
-I created this dashboard to showcase insights into salary trends across various data-related job titles. Utilizing data from my Excel course, this dashboard allows users to make informed decisions about their career paths. Exploring the functionalities to understand how location and job type influence salaries.
+I created this dashboard to showcase insights into salary trends across various data-related job titles. Utilizing data from my Excel course, this dashboard allows users to make informed decisions about their career paths. Users can explore how location and job type influence salaries.
