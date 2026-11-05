@@ -1,12 +1,20 @@
 # Excel Data Analytics
 
-Two Excel projects built on the same data jobs dataset. The goal: help job seekers see what data jobs pay and which skills matter.
+Three Excel projects that turn raw data into clear answers. Projects 1 and 2 use a data jobs dataset to help job seekers see what data jobs pay and which skills matter. Project 3 uses IPL cricket data to find out what drives wins.
 
-## Dataset
+## Datasets
+
+### 💼 Data Jobs Dataset (Projects 1 and 2)
 
 - 📅 Real-world data science job postings from 2023.
 - 📚 Taken from an Excel course I followed.
 - 🧾 Includes job titles, salaries, locations and skills.
+
+### 🏏 IPL Dataset (Project 3)
+
+- 📅 696 Indian Premier League matches from 2008 to 2018.
+- 🏟️ 13 teams, 35 venues and 32 cities.
+- 🧾 Includes teams, venues, toss details, winners, Man of the Match awards and season results.
 
 ## Projects
 
@@ -34,11 +42,29 @@ An analysis of skills, pay and regions in the data job market. It answers four q
 - 🛠️ **Skills:** Power Query, Power Pivot, PivotTables, PivotCharts, DAX
 - 👉 **Full write-up:** [Project-2/README.md](Project-2/README.md)
 
+### 3️⃣ [IPL Analysis Dashboard](Project-3/README.md)
+
+An interactive dashboard that studies 11 IPL seasons. It answers five questions:
+
+- Which teams have won the most matches?
+- Does the toss decision (bat or field) matter?
+- Which venues host the most matches and what do they favour?
+- Which players win the most Man of the Match awards?
+- Which teams have won the most titles?
+
+![IPL Dashboard](Images/3_IPL_Dashboard.png)
+
+- 🔎 **Key findings:** Mumbai Indians lead with 98 wins, captains chose to field first in 59.3% of matches, CH Gayle has the most Man of the Match awards (20), and Chennai Super Kings and Mumbai Indians lead with 3 titles each.
+- 🛠️ **Skills:** PivotTables, PivotCharts, Slicers, XLOOKUP, GETPIVOTDATA, Treemap Chart
+- 📗 **Workbook:** [Project-3.xlsx](Project-3/Project-3.xlsx)
+- 👉 **Full write-up:** [Project-3/README.md](Project-3/README.md)
+
 ## Repository Structure
 
 - 📁 `Images/`: screenshots and charts used in the project READMEs
 - 📁 `Project-1/`: salary dashboard (workbook and README)
 - 📁 `Project-2/`: market analysis (README)
+- 📁 `Project-3/`: IPL analysis dashboard (workbook and README)
 
 ## Tools Used
 
@@ -46,6 +72,8 @@ An analysis of skills, pay and regions in the data job market. It answers four q
 - **🧮 Formulas and Functions**
 - **❎ Data Validation**
 - **📊 Pivot Tables and Pivot Charts**
+- **🎛️ Slicers**
+- **🔍 XLOOKUP and GETPIVOTDATA**
 - **🧮 DAX**
 - **🔍 Power Query**
 - **💪 Power Pivot**
